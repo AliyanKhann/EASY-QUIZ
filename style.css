@@ -1,0 +1,105 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+}
+
+#login,#questions{
+    height: 350px;
+    background-color: grey;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    box-shadow: 3px -2px 13px 5px #930f0f;
+    border-radius: 10px;
+    
+}
+.email{
+    font-size: x-large;
+    font-family: cursive;
+
+}
+input.emp {
+    font-size: smaller;
+    font-family: cursive;
+    border: 1px solid #1a59a7;
+    border-radius: 10px;
+}
+.btn1{
+    font-size: xx-large;
+    font-family: cursive;
+    margin-right: 145px;
+    margin-top: 50px;
+    border: black;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 8px;
+    box-shadow: 2px 2px 13px 0px black;
+
+}
+.btn1:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
+#questions{
+    display: none;
+    height: 420px;
+
+}
+
+#q1,#q2,#q3,#q4,#q5{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+#question {
+    
+    margin-right: 200px;
+}
+button.btnq1 {
+    font-size: larger;
+    text-align: left;
+    border: 1px solid grey;
+    border-radius: 8px;
+    font-weight: 500;
+    background-color: black;
+    color: aliceblue;
+    height: 45px;
+    margin: 5px;
+}
+button.btnq1:hover{
+    background-color: #77f726d9;
+}
+#nextbtn,#nextbtna,#nextbtnb,#nextbtnc,#nextbtnd {
+    font-size: xx-large;
+    border: 1px solid black;
+    margin-top: 30px;
+    color: #d70000d9;
+    padding: 5px 20px 2px 20px;
+    background: #77f726d9;
+    font-family: cursive;
+    border-radius: 20px;
+    display: none;
+   
+}
+#nextbtn,#nextbtna,#nextbtnb,#nextbtnc,#nextbtnd:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 13px 0px black;
+}
+h1#submit {
+    font-size: xxx-large;
+    font-family: cursive;
+    color: gold;
+    background-color: black;
+    border-radius: 15px;
+}
